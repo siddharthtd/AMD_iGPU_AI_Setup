@@ -288,7 +288,7 @@ As an alternative to ROCm backend, you may build a copy of llama.cpp that runs V
 To set up Vulkan driver:
 
 ```
-sudo apt install glslc glslang-tools glslang-dev mesa-vulkan-drivers vulkan-tools libvulkan-dev libvulkan-memory-allocator-dev libvulkan-volk-dev vulkan-validationlayers vulkan-utility-libraries-dev
+sudo apt install glslc glslang-tools glslang-dev mesa-vulkan-drivers vulkan-tools libvulkan-dev libvulkan-memory-allocator-dev libvulkan-volk-dev vulkan-validationlayers vulkan-utility-libraries-dev spirv-headers
 ```
 
 Install libcurl development headers (if on Ubuntu/Debian):
